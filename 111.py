@@ -1,5 +1,3 @@
-#include <iostream>
-
 int main(){
   int a = 100;
   int b = 0;
@@ -9,7 +7,7 @@ int main(){
       b += 2;
     }
     else {
-      a -= 3;
+      a += 3;
     }
   }
   std::cout << "a = ", a, " b = ", b;
