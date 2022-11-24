@@ -1,2 +1,17 @@
-#ferfrvrvrv
-a = 7777777777777
+#include <iostream>
+
+int main(){
+  int a = 100;
+  int b = 0;
+  while(true) {
+    if (a < b) {
+      a++;
+      b += 2;
+    }
+    else {
+      a -= 3;
+    }
+  }
+  std::cout << "a = ", a, " b = ", b;
+  return 0;
+}
